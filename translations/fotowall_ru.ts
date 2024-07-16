@@ -193,7 +193,7 @@ Use CTRL to cancel the transformations.</source>
     <message>
         <location filename="../Canvas/Canvas.cpp" line="1446"/>
         <source>All the %1 selected content will be deleted, do you want to continue ?</source>
-        <translation>Все выбранные материалы %1 будут удалены, вы хотите продолжить?</translation>
+        <translation>Все выбранные материалы %1 будут удалены. Продолжить?</translation>
     </message>
 </context>
 <context>
@@ -206,7 +206,7 @@ Use CTRL to cancel the transformations.</source>
     <message>
         <location filename="../App/CanvasAppliance.cpp" line="131"/>
         <source>You won&apos;t see through the Canvas unless you clear the background.&lt;br&gt;&lt;b&gt;Do you want me to clear it?&lt;/b&gt;</source>
-        <translation>Вы не увидите сквозь холст, пока не очистите фон.&lt;br&gt;&lt;b&gt;вы хотите, чтобы я очистил его?&lt;/b&gt;</translation>
+        <translation>Вы не увидите сквозь холст, пока не очистите фон.&lt;br&gt;&lt;b&gt;Очистить его?&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../App/CanvasAppliance.cpp" line="132"/>
@@ -651,7 +651,7 @@ Use CTRL to cancel the transformations.</source>
     <message>
         <location filename="../App/ExportWizard.ui" line="189"/>
         <source>Your work will be saved to a picture. Please fill the following options and click Finish.</source>
-        <translation>Ваша работа будет сохранена как изображение. Пожалуйста, заполните следующие параметры и нажмите Готово.</translation>
+        <translation>Ваша работа будет сохранена как изображение. Заполните следующие параметры и нажмите Готово.</translation>
     </message>
     <message>
         <location filename="../App/ExportWizard.ui" line="198"/>
@@ -1139,7 +1139,7 @@ Alternatively, a custom paper sheet size can be defined in the &lt;b&gt;%2&lt;/b
 Paper borders are defined in the &lt;b&gt;%3&lt;/b&gt; fields. Even if your printer does need no (or small) paper borders, some border might be needed to have enough area for gluing the final poster tiles together.</source>
         <comment>Wizard step 2. Place holders: %1 = &apos;Format:&apos;, %2 = &apos;Custom&apos;, %3 = &apos;Borders&apos; (will be automatically inserted)</comment>
         <translatorcomment>Шаг 2 мастера. Заполнители: %1 = «Формат:», %2 = «Пользовательский», %3 = «Границы» (будут вставлены автоматически).</translatorcomment>
-        <translation>Определите размер листа бумаги, который вы используете в своем принтере.
+        <translation>Определите размер листа бумаги, который используете в своем принтере.
 Стандартный размер листа бумаги можно выбрать в средстве выбора &lt;b&gt;%1&lt;/b&gt; вместе с желаемой ориентацией листа бумаги.
 Альтернативно, на вкладке &lt;b&gt;%2&lt;/b&gt; можно определить нестандартный размер листа бумаги.
 Границы бумаги определяются в полях &lt;b&gt;%3&lt;/b&gt;. Даже если вашему принтеру не нужны бумажные рамки (или они маленькие), некоторые рамки могут потребоваться, чтобы иметь достаточную площадь для склеивания окончательных плиток плаката.</translation>
@@ -1164,26 +1164,26 @@ The &lt;b&gt;%1&lt;/b&gt; defines the borders that are intended to be overlapped
         <location filename="../3rdparty/posterazor/wizardcontroller.cpp" line="229"/>
         <source>You want to have a specific size of your poster.</source>
         <comment>Wizard step 4. Description for &apos;absolute size&apos;</comment>
-        <translation>Вы хотите, чтобы ваш плакат был определенного размера.</translation>
+        <translation>Плакат будет определенного размера.</translation>
     </message>
     <message>
         <location filename="../3rdparty/posterazor/wizardcontroller.cpp" line="234"/>
         <source>You want to use whole paper sheets and specify how many of them of them you want to use.</source>
         <comment>Wizard step 4. Description for &apos;size in pages&apos;</comment>
-        <translation>Вы хотите использовать целые листы бумаги и указать, сколько из них вы хотите использовать.</translation>
+        <translation>Использовать целые листы бумаги и указать, сколько из них будет.</translation>
     </message>
     <message>
         <location filename="../3rdparty/posterazor/wizardcontroller.cpp" line="239"/>
         <source>Your input image has a certain size which is defined by the number of pixels and dpi (dots per Inch) and your want to enlarge the image by a certain factor.</source>
         <comment>Wizard step 4. Description for &apos;size in percent&apos;</comment>
-        <translation>Ваше входное изображение имеет определенный размер, который определяется количеством пикселей и dpi (точек на дюйм), и вы хотите увеличить изображение на определенный коэффициент.</translation>
+        <translation>Входное изображение имеет определенный размер, который определяется количеством пикселей и dpi (точек на дюйм), можно увеличить изображение на определенный коэффициент.</translation>
     </message>
     <message>
         <location filename="../3rdparty/posterazor/wizardcontroller.cpp" line="243"/>
         <source>The aspect ratio of width and height is always 1:1 and is automatically recalculated. In the preview area, you can see the overlapping areas which are surrounded by light red rectangles.
 &lt;b&gt;%1&lt;/b&gt; sets the alignment of the image on the total paper area of the poster. This is useful if you want to keep the unused paper.</source>
         <comment>Wizard step 4. End of the description. Place holders: %1 = &apos;Image alignment&apos; (will be automatically inserted)</comment>
-        <translation>Соотношение ширины и высоты всегда составляет 1:1 и автоматически пересчитывается. В области предварительного просмотра вы можете увидеть перекрывающиеся области, окруженные светло-красными прямоугольниками.
+        <translation>Соотношение ширины и высоты всегда составляет 1:1 и автоматически пересчитывается. В области предварительного просмотра можно увидеть перекрывающиеся области, окруженные светло-красными прямоугольниками.
 &lt;b&gt;%1&lt;/b&gt; задает выравнивание изображения по всей площади плаката. Это полезно, если вы хотите сохранить неиспользованную бумагу.</translation>
     </message>
     <message>
@@ -1859,7 +1859,7 @@ Do you want to overwrite it?</source>
     <message>
         <location filename="../App/MainWindow.cpp" line="366"/>
         <source>OpenGL accelerates graphics, but it doesn&apos;t work on some systems.&lt;br&gt; - if it feels slower, make sure that your driver accelerates OpenGL&lt;br&gt; - if Fotowall stops responding after switching to OpenGL, don&apos;t enable OpenGL next time</source>
-        <translation>OpenGL ускоряет графику, но не работает на некоторых системах.&lt;br&gt; - если чувствуется замедление, убедитесь, что ваш драйвер ускоряет OpenGL&lt;br&gt; - если Fotowall перестает отвечать после переключения на OpenGL, не включайте OpenGL в следующий раз</translation>
+        <translation>OpenGL ускоряет графику, но не работает на некоторых системах.&lt;br&gt; - если чувствуется замедление, убедитесь, что ваш драйвер ускоряет OpenGL&lt;br&gt; - если Fotowall перестает отвечать после включения OpenGL, не используйте OpenGL</translation>
     </message>
     <message>
         <location filename="../App/MainWindow.cpp" line="369"/>
@@ -1892,7 +1892,7 @@ Do you want to overwrite it?</source>
     <message>
         <location filename="../App/MainWindowMobile.cpp" line="247"/>
         <source>Search Web Pictures</source>
-        <translation>Поиск Интернет изображенийПоиск Интернет Картинок</translation>
+        <translation>Поиск Интернет изображений</translation>
     </message>
 </context>
 <context>
